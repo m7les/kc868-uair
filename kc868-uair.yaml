@@ -1,5 +1,5 @@
 esphome:
-  name: KC868-Uair
+  name: kc868-uair
   platform: ESP32
   board: esp32dev
 
