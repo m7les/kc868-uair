@@ -1,8 +1,8 @@
 # About
 
-#KC868-Uair Magic Box  
+# KC868-Uair Magic Box  
 
-#hardware resource:  
+# hardware resource:  
 
 433MHz RF transmit  
 433MHz RF receiver  
