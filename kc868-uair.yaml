@@ -1,6 +1,12 @@
-esphome:
+substitutions:
   name: kc868-uair
-  platform: ESP32
+  dallas_address: "0xC000000004D81528"
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: true
+  
+esp32:
   board: esp32dev
 
 web_server:
@@ -16,13 +22,11 @@ logger:
 api:
 
 ota:
-  password: ""
 
 wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "KC868-Uair Fallback Hotspot"
-    password: ""
 
 captive_portal:
 
@@ -41,7 +45,7 @@ dallas:
 # Individual sensors
 sensor:
   - platform: dallas
-    address: 0xC000000004D81528 # your DS18B20 address
+    address: $dallas_address # your DS18B20 address
     name: "internal Temperature"
 
   # Example configuration entry
