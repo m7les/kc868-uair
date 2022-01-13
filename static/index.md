@@ -1,7 +1,7 @@
 # About
 
 # KC868-Uair Magic Box  
-
+![image](https://www.kincony.com/images/uair/kc868-uair_ESP32_sensor.jpg)  
 # hardware resource:  
 
 433MHz RF transmit  
