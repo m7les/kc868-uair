@@ -16,7 +16,7 @@ logger:
 api:
 
 ota:
-  password: "978e66f878ed5041b830cfb427393c79"
+  password: ""
 
 wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
