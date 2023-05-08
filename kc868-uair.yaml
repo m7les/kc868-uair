@@ -92,6 +92,7 @@ light:
       - addressable_fireworks:
       - addressable_flicker:
       
+# first attempt to include IR devices      
 remote_receiver:
   pin: GPIO19
   dump: all
