@@ -91,3 +91,12 @@ light:
       - addressable_random_twinkle:
       - addressable_fireworks:
       - addressable_flicker:
+      
+remote_receiver:
+  pin: GPIO19
+  dump: all
+
+remote_transmitter:
+  pin: GPIO22
+  # Infrared remotes use a 50% carrier signal
+  carrier_duty_percent: 50%
